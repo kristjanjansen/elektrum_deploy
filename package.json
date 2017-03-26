@@ -1,0 +1,8 @@
+{
+  "name": "elektrum_deploy",
+  "private": true,
+  "dependencies": {
+    "github-webhook-handler": "^0.6.0",
+    "ip": "^1.1.5"
+  }
+}

@@ -1,7 +1,5 @@
 ## Elektrum deployment 
 
-Or automatically getting the code to the live servers on Github push
-
 1\. SSH to the provisioned target machine
 
 2\.Run

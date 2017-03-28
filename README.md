@@ -5,7 +5,7 @@
 2\.Run
 
 ```sh
-cd /var
+cd /var/www
 git clone https://github.com/kristjanjansen/elektrum_deploy
 cd elektrum_deploy
 npm install -g pm2
@@ -14,11 +14,7 @@ pm2 start deploy.js
 pm2 startup
 ```
 
-3\. Git clone your project to the target machine under ```/var/```
-
-4\. Adjust `deploy.sh` script as neccessary
-
-5\. Open **Settings > Webhooks > Add webhook** in Github project and and fill the following:
+3\. Open **Settings > Webhooks > Add webhook** in Github project and and fill the following:
 
 Payload URL
 
@@ -32,7 +28,7 @@ Secret
 
     secret
 
-6\. Push something to your project master branch and then run
+4\. Push something to your project master branch and then run
 
 ```sh
 pm2 logs

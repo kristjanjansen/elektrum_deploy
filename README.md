@@ -5,6 +5,7 @@
 2\.Run
 
 ```sh
+mkdir -p /var/www
 cd /var/www
 git clone https://github.com/kristjanjansen/elektrum_deploy
 cd elektrum_deploy

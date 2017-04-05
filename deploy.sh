@@ -5,3 +5,4 @@ git pull
 composer install
 npm install
 npm run build
+chmod 777 prelive_protected/runtime
